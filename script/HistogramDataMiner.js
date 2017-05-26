@@ -1,4 +1,5 @@
 var allLibs = []
+var projectsForLib = []
 
 function addLibToAllLibs (name, frequency){
   var didEnter = false
@@ -45,6 +46,35 @@ function loadAllLibs() {
   })
 }
 
-// loadAllLibs().then(result => {
-//   console.log(result);
-// })
+function getProjectsFor(lib){
+  return new Promise( (fulfill, reject) => {
+    d3.json('result.json', (err, json) => {
+      if (err){
+        reject(err)
+      }
+
+      var keysArray = Object.keys(json)
+
+
+      for (var i = 0; i < keysArray.length; i++){
+        var projectName = keysArray[i]
+
+        var libsForProjectDictionary = json[keysArray[i]]["libs"]
+
+        var libNames = Object.keys(libsForProjectDictionary)
+
+        for (var j = 0; j < libNames.length; j++){
+          if (libNames[j] === lib) {
+            const object = {
+                  projetName: projectName,
+                  frequency: libsForProjectDictionary[lib]
+            }
+            projectsForLib.push(object)
+            break
+          }
+        }
+      }
+      fulfill(projectsForLib)
+    })
+  })
+}
