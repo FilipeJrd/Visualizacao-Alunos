@@ -23,11 +23,11 @@ for name in os.listdir(dir):
         f = open("log.txt", "r")
         pattern = re.compile("\s(?P<commits>[0-9]+) Commiter name: (?P<name>([\w]?[0-9]?)+)")
         projectCommit[name] = {}
-
+        (projectCommit[name])["users"] = {}
         for match in pattern.findall(f.read()):
             commitNumber = match[0]
             nameUser = match[1]
-            (projectCommit[name])[nameUser] = commitNumber
+            ((projectCommit[name])["users"])[nameUser] = commitNumber
 
 os.chdir(ROOT_DIR)
 
