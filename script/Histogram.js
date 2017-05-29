@@ -18,7 +18,7 @@ class Histogram {
         return d.name
       }
     )).range([this.margins.left,this.width - this.margins.right]).padding(0.1);
-    this.scaleY = d3.scaleLinear().domain([this.biggest(),0]).range([0,this.height - this.margins.bottom]);
+    this.scaleY = d3.scaleLinear().domain([this.biggest()+100,0]).range([0,this.height - this.margins.bottom]);
     
   }
 
