@@ -6,22 +6,35 @@ function getGraphOfCollaboration() {
   nodes = []
   return new Promise((fulfill, reject) => {
     d3.json("result.json", (err, json) => {
-      if (err){
+      if (err) {
         reject(err)
       }
       var projectListName = Object.keys(json)
 
-      for (var i = 0; i < projectListName.length; i++){
+      for (var i = 0; i < projectListName.length; i++) {
 
-          var usersDict = json[projectListName[i]]["users"]
-          const users = Object.keys(usersDict).sort()
-          addUsersToNodes(users)
-        
-          for ( var j = 0; j < users.length; j++){
-            for (var k = j+1 ; k < users.length; k++){
-              ifexitsUpdate(users[j], users[k])
-            }
+        var usersDict = (json[projectListName[i]])["users"]
+        const users = Object.keys(usersDict).sort()
+        addUsersToNodes(users)
+
+        for (var j = 0; j < users.length; j++) {
+          for (var k = j + 1; k < users.length; k++) {
+            ifexitsUpdate(users[j], users[k])
           }
+        }
+      }
+      var filtragi = {}
+      for (var i = 0 ; i < nodes.length; i++){
+        let elem = (nodes[i]).id
+        filtragi[elem] = ""
+      }
+      const gambiDoInferno = Object.keys(filtragi)
+      nodes = []
+      for (var i = 0; i < gambiDoInferno.length ; i++){
+        const object = {
+          id: gambiDoInferno[i]
+        }
+        nodes.push(object)
       }
       result = [links, nodes]
       fulfill(result)
@@ -29,18 +42,18 @@ function getGraphOfCollaboration() {
   })
 }
 
-function ifexitsUpdate(srcUser, targetUser){
+function ifexitsUpdate(srcUser, targetUser) {
   var hasConnectionAlready = false
-  for(var i = 0; i < links.length; i++){
-    var edge  = links[i]
-    if (edge.source === srcUser  && edge.target === targetUser){
+  for (var i = 0; i < links.length; i++) {
+    var edge = links[i]
+    if (edge.source === srcUser && edge.target === targetUser) {
       edge.value += 1
       hasConnectionAlready = true
       break
     }
   }
 
-  if (!hasConnectionAlready){
+  if (!hasConnectionAlready) {
     const object = {
       source: srcUser,
       target: targetUser,
@@ -50,27 +63,23 @@ function ifexitsUpdate(srcUser, targetUser){
   }
 }
 
-function addUsersToNodes(users){
-  var uniqueUsers = []
-  for (var j = 0; j < users.length; j++){
-    for (var i = 0; i < nodes.length; i++ ){
-      if (node.id ===  users[i]) {
-        continue
-      }else{
-        uniqueUsers.push(users[i])
-      }
-    }
-  }
-
-  for (var i = 0; i < uniqueUsers.length; i++){
+function addUsersToNodes(users) {
+  for (var i = 0; i < users.length; i++) {
     const object = {
-      id: uniqueUsers[i],
+      id: users[i],
     }
-    nodes.push(object)
+    const contains = nodes.includes(object)
+    if (!contains){
+      nodes.push(object)
+    }
   }
 }
 
-getGraphOfCollaboration().then(result => {
-  console.log("links " + result[0]);
-  console.log("nodes " + result[1]);
-})
+
+function test() {
+  getGraphOfCollaboration().then(result => {
+    console.log("links " + result[0]);
+    console.log("nodes " + result[1]);
+    debugger
+  })
+}
