@@ -4,8 +4,8 @@ import urllib2
 import json
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-
-content = urllib2.urlopen("https://api.github.com/user/repos?access_token=d16f7da23ea4af04d74ed84b1deafc6e6da7f9e3")
+token = ""
+content = urllib2.urlopen("https://api.github.com/user/repos?access_token="+token)
 data = json.load(content)
 
 for repo in data:

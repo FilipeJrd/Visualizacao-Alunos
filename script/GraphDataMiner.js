@@ -5,7 +5,7 @@ function getGraphOfCollaboration() {
   links = []
   nodes = []
   return new Promise((fulfill, reject) => {
-    d3.json("result.json", (err, json) => {
+    d3.json("result2.json", (err, json) => {
       if (err) {
         reject(err)
       }
@@ -14,7 +14,10 @@ function getGraphOfCollaboration() {
       for (var i = 0; i < projectListName.length; i++) {
 
         var usersDict = (json[projectListName[i]])["users"]
-        const users = Object.keys(usersDict).sort()
+        const users = usersDict.map(function(user){
+          return user.login
+        }).sort()
+        Object.keys(usersDict).sort()
         addUsersToNodes(users)
 
         for (var j = 0; j < users.length; j++) {

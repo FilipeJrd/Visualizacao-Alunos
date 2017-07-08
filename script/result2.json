@@ -1,0 +1,690 @@
+{
+    "7dayRun": {
+        "libs": {
+            "CoreGraphics": 1, 
+            "Foundation": 4, 
+            "IQKeyboardManagerSwift": 1, 
+            "UIKit": 23
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/4502936?v=3", 
+                "id": 4502936, 
+                "login": "augusto-jamaj"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
+                "id": 11545694, 
+                "login": "guedesbgeorge"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/19693213?v=3", 
+                "id": 19693213, 
+                "login": "IagoBarbosa"
+            }
+        ]
+    }, 
+    "BackStEltons": {
+        "libs": {
+            "CloudKit": 6, 
+            "CoreData": 2, 
+            "Flurry": 1, 
+            "Foundation": 48, 
+            "SpriteKit": 11, 
+            "UIKit": 44
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/1373661?v=3", 
+                "id": 1373661, 
+                "login": "fernandocastor"
+            }, 
+            {
+                "avatar": "https://avatars0.githubusercontent.com/u/3356696?v=3", 
+                "id": 3356696, 
+                "login": "Valbrand"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/3356699?v=3", 
+                "id": 3356699, 
+                "login": "fc2"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/9555750?v=3", 
+                "id": 9555750, 
+                "login": "Juniorlimaivd"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
+                "id": 13512825, 
+                "login": "hpbl"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
+                "id": 22280044, 
+                "login": "eltonfs"
+            }
+        ]
+    }, 
+    "BackTag": {
+        "libs": {
+            "AVFoundation": 5, 
+            "Foundation": 19, 
+            "Prototype": 1, 
+            "QuartzCore": 1, 
+            "StoreKit": 1, 
+            "UIKit": 24, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/2599977?v=3", 
+                "id": 2599977, 
+                "login": "mariamaOlive"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/9863339?v=3", 
+                "id": 9863339, 
+                "login": "imvm"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/18189593?v=3", 
+                "id": 18189593, 
+                "login": "iillx"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/19510532?v=3", 
+                "id": 19510532, 
+                "login": "juliadebelli"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/23509335?v=3", 
+                "id": 23509335, 
+                "login": "cesararaujo93"
+            }
+        ]
+    }, 
+    "BezierCurve-ConvexHull": {
+        "libs": {
+            "AppKit": 1, 
+            "Cocoa": 3, 
+            "Foundation": 2, 
+            "GLKit": 1, 
+            "GLUT": 1, 
+            "OpenGL": 1
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/3356699?v=3", 
+                "id": 3356699, 
+                "login": "fc2"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
+                "id": 13512825, 
+                "login": "hpbl"
+            }
+        ]
+    }, 
+    "CircleRun": {
+        "libs": {
+            "CoreMotion": 2, 
+            "GameplayKit": 8, 
+            "SceneKit": 1, 
+            "SpriteKit": 8, 
+            "UIKit": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
+                "id": 14222832, 
+                "login": "VictorLealdeAlmeida"
+            }
+        ]
+    }, 
+    "CloudKitTutorial": {
+        "libs": {
+            "CloudKit": 2, 
+            "Foundation": 1, 
+            "UIKit": 3
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
+                "id": 8097674, 
+                "login": "FilipeJrd"
+            }
+        ]
+    }, 
+    "DijkstraSimulator": {
+        "libs": {
+            "Foundation": 8, 
+            "PlaygroundSupport": 1, 
+            "UIKit": 4
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
+                "id": 8097674, 
+                "login": "FilipeJrd"
+            }
+        ]
+    }, 
+    "FicaFrio": {
+        "libs": {
+            "Charts": 3, 
+            "Cocoa": 1, 
+            "CoreGraphics": 102, 
+            "FBSnapshotTestCase": 2, 
+            "Foundation": 138, 
+            "ImageIO": 1, 
+            "Quartz": 1, 
+            "UIKit": 38, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
+                "id": 14222832, 
+                "login": "VictorLealdeAlmeida"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/19761356?v=3", 
+                "id": 19761356, 
+                "login": "btalyta"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/19777347?v=3", 
+                "id": 19777347, 
+                "login": "SilasGuilherme"
+            }, 
+            {
+                "avatar": "https://avatars0.githubusercontent.com/u/19818989?v=3", 
+                "id": 19818989, 
+                "login": "dichaves"
+            }
+        ]
+    }, 
+    "FizzBuzz": {
+        "libs": {
+            "FizzBuzz": 4, 
+            "Foundation": 1, 
+            "UIKit": 4, 
+            "XCTest": 4
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
+                "id": 13512825, 
+                "login": "hpbl"
+            }
+        ]
+    }, 
+    "Fooderoso": {
+        "libs": {
+            "CoreData": 1, 
+            "Firebase": 2, 
+            "FirebaseAuth": 1, 
+            "FirebaseDatabase": 1, 
+            "Foundation": 7, 
+            "GoogleMaps": 1, 
+            "GooglePlaces": 2, 
+            "IQKeyboardManagerSwift": 1, 
+            "JSQMessagesViewController": 1, 
+            "SwiftyJSON": 7, 
+            "UIKit": 27
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/6545705?v=3", 
+                "id": 6545705, 
+                "login": "tbbruno"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
+                "id": 14222832, 
+                "login": "VictorLealdeAlmeida"
+            }
+        ]
+    }, 
+    "Interchallenge": {
+        "libs": {
+            "Collabrarians": 1, 
+            "CoreData": 1, 
+            "Firebase": 2, 
+            "FirebaseAuth": 3, 
+            "FirebaseDatabase": 2, 
+            "Foundation": 29, 
+            "Gifu": 1, 
+            "Hero": 2, 
+            "ImageIO": 2, 
+            "MetalKit": 1, 
+            "MobileCoreServices": 1, 
+            "Shimmer": 2, 
+            "UIKit": 91, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
+                "id": 8097674, 
+                "login": "FilipeJrd"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/15603731?v=3", 
+                "id": 15603731, 
+                "login": "dbm2"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/18189593?v=3", 
+                "id": 18189593, 
+                "login": "iillx"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/23509335?v=3", 
+                "id": 23509335, 
+                "login": "cesararaujo93"
+            }
+        ]
+    }, 
+    "MercadoMadalena": {
+        "libs": {
+            "CloudKit": 3, 
+            "Foundation": 9, 
+            "MapKit": 5, 
+            "MessageUI": 1, 
+            "UIKit": 28, 
+            "XCTest": 1
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/1373661?v=3", 
+                "id": 1373661, 
+                "login": "fernandocastor"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/9863339?v=3", 
+                "id": 9863339, 
+                "login": "imvm"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
+                "id": 11545694, 
+                "login": "guedesbgeorge"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
+                "id": 14222832, 
+                "login": "VictorLealdeAlmeida"
+            }, 
+            {
+                "avatar": "https://avatars0.githubusercontent.com/u/18312922?v=3", 
+                "id": 18312922, 
+                "login": "habacuquerocha"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/19510532?v=3", 
+                "id": 19510532, 
+                "login": "juliadebelli"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
+                "id": 22280044, 
+                "login": "eltonfs"
+            }
+        ]
+    }, 
+    "Mosquito": {
+        "libs": {
+            "Foundation": 5, 
+            "MapKit": 2, 
+            "Mosquito": 1, 
+            "UIKit": 6, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/122041?v=3", 
+                "id": 122041, 
+                "login": "Cisneiros"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/8253723?v=3", 
+                "id": 8253723, 
+                "login": "JonnatasCabral"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
+                "id": 14222832, 
+                "login": "VictorLealdeAlmeida"
+            }
+        ]
+    }, 
+    "PingPong": {
+        "libs": {
+            "CoreMotion": 2, 
+            "Foundation": 31, 
+            "GameplayKit": 5, 
+            "SpriteKit": 9, 
+            "Tibei": 13, 
+            "UIKit": 15
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
+                "id": 22280044, 
+                "login": "eltonfs"
+            }
+        ]
+    }, 
+    "PlaygroundVisualProject": {
+        "libs": {
+            "Foundation": 4, 
+            "PlaygroundSupport": 1, 
+            "SpriteKit": 3, 
+            "UIKit": 3
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
+                "id": 22280044, 
+                "login": "eltonfs"
+            }
+        ]
+    }, 
+    "Projeto-Luanda": {
+        "libs": {
+            "Alfaia": 1, 
+            "Foundation": 1, 
+            "GameController": 1, 
+            "SpriteKit": 2, 
+            "UIKit": 5, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/122041?v=3", 
+                "id": 122041, 
+                "login": "Cisneiros"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/6545705?v=3", 
+                "id": 6545705, 
+                "login": "tbbruno"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
+                "id": 14222832, 
+                "login": "VictorLealdeAlmeida"
+            }
+        ]
+    }, 
+    "PushFilter": {
+        "libs": {
+            "CoreData": 1, 
+            "FBSDKCoreKit": 19, 
+            "FBSDKLoginKit": 7, 
+            "FBSDKShareKit": 32, 
+            "FacebookCore": 12, 
+            "FacebookLogin": 3, 
+            "Foundation": 49, 
+            "ObjectiveC": 1, 
+            "PushFilter": 1, 
+            "UIKit": 12, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
+                "id": 11545694, 
+                "login": "guedesbgeorge"
+            }
+        ]
+    }, 
+    "RunnerChallenge-2": {
+        "libs": {
+            "AVFoundation": 1, 
+            "Foundation": 1, 
+            "SpriteKit": 3, 
+            "UIKit": 3
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/1664145?v=3", 
+                "id": 1664145, 
+                "login": "forbidden404"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
+                "id": 8097674, 
+                "login": "FilipeJrd"
+            }, 
+            {
+                "avatar": "https://avatars0.githubusercontent.com/u/19688761?v=3", 
+                "id": 19688761, 
+                "login": "JoaoHolanda"
+            }
+        ]
+    }, 
+    "Soror": {
+        "libs": {
+            "CoreData": 1, 
+            "CoreGraphics": 1, 
+            "Firebase": 2, 
+            "FirebaseAuth": 7, 
+            "FirebaseDatabase": 2, 
+            "Foundation": 12, 
+            "IQKeyboardManagerSwift": 1, 
+            "JSQMessagesViewController": 1, 
+            "NVActivityIndicatorView": 6, 
+            "QuartzCore": 1, 
+            "Soror": 1, 
+            "UIKit": 68, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
+                "id": 11545694, 
+                "login": "guedesbgeorge"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/18189593?v=3", 
+                "id": 18189593, 
+                "login": "iillx"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/19693213?v=3", 
+                "id": 19693213, 
+                "login": "IagoBarbosa"
+            }
+        ]
+    }, 
+    "TripSaver": {
+        "libs": {
+            "AVFoundation": 1, 
+            "Charts": 5, 
+            "Cocoa": 1, 
+            "CoreGraphics": 90, 
+            "FBSnapshotTestCase": 2, 
+            "Foundation": 123, 
+            "Quartz": 1, 
+            "UIKit": 39, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/6579696?v=3", 
+                "id": 6579696, 
+                "login": "baac"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
+                "id": 8097674, 
+                "login": "FilipeJrd"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/9863339?v=3", 
+                "id": 9863339, 
+                "login": "imvm"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
+                "id": 11545694, 
+                "login": "guedesbgeorge"
+            }, 
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
+                "id": 14222832, 
+                "login": "VictorLealdeAlmeida"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/18189593?v=3", 
+                "id": 18189593, 
+                "login": "iillx"
+            }
+        ]
+    }, 
+    "UpSteam": {
+        "libs": {
+            "Alamofire": 1, 
+            "CoreData": 1, 
+            "Foundation": 3, 
+            "Moya": 1, 
+            "UIKit": 6
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
+                "id": 8097674, 
+                "login": "FilipeJrd"
+            }
+        ]
+    }, 
+    "artfy": {
+        "libs": {
+            "CoreData": 1, 
+            "Foundation": 8, 
+            "MapKit": 3, 
+            "UIKit": 19, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/4502936?v=3", 
+                "id": 4502936, 
+                "login": "augusto-jamaj"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
+                "id": 11545694, 
+                "login": "guedesbgeorge"
+            }
+        ]
+    }, 
+    "bezierFonts": {
+        "libs": {
+            "Foundation": 1, 
+            "PlaygroundSupport": 1, 
+            "UIKit": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
+                "id": 13512825, 
+                "login": "hpbl"
+            }
+        ]
+    }, 
+    "inter-challenge": {
+        "libs": {
+            "UIKit": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars0.githubusercontent.com/u/3356696?v=3", 
+                "id": 3356696, 
+                "login": "Valbrand"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/6303449?v=3", 
+                "id": 6303449, 
+                "login": "isabellyfd"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/9555750?v=3", 
+                "id": 9555750, 
+                "login": "Juniorlimaivd"
+            }, 
+            {
+                "avatar": "https://avatars0.githubusercontent.com/u/19818989?v=3", 
+                "id": 19818989, 
+                "login": "dichaves"
+            }
+        ]
+    }, 
+    "projetoPG2": {
+        "libs": {
+            "AppKit": 1, 
+            "Cocoa": 3, 
+            "CoreGraphics": 1, 
+            "Foundation": 11
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars1.githubusercontent.com/u/3356699?v=3", 
+                "id": 3356699, 
+                "login": "fc2"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
+                "id": 13512825, 
+                "login": "hpbl"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/14084418?v=3", 
+                "id": 14084418, 
+                "login": "bhlvm"
+            }
+        ]
+    }, 
+    "vivoOuMorto": {
+        "libs": {
+            "AVFoundation": 4, 
+            "AVKit": 3, 
+            "CoreData": 1, 
+            "Foundation": 27, 
+            "ReSwift": 9, 
+            "UIKit": 25, 
+            "VivoOuMorto": 1, 
+            "XCTest": 2
+        }, 
+        "users": [
+            {
+                "avatar": "https://avatars0.githubusercontent.com/u/3356696?v=3", 
+                "id": 3356696, 
+                "login": "Valbrand"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/13274833?v=3", 
+                "id": 13274833, 
+                "login": "jeronimobs"
+            }, 
+            {
+                "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
+                "id": 13512825, 
+                "login": "hpbl"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/19693213?v=3", 
+                "id": 19693213, 
+                "login": "IagoBarbosa"
+            }, 
+            {
+                "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
+                "id": 22280044, 
+                "login": "eltonfs"
+            }
+        ]
+    }
+}
