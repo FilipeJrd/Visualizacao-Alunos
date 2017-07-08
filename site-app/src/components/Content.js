@@ -5,7 +5,7 @@ class Content extends Component {
         return(
             <div className='container'>
                 <div className='row'>
-                    <div className='col s7 offset-s2'>
+                    <div className='col s8 offset-s2'>
                         <h3>About</h3>
                         <div className='justify-text'>
                             <blockquote >
@@ -16,7 +16,7 @@ class Content extends Component {
                     </div>  
                 </div> 
                 <div className='row'>
-                    <div className='col s7 offset-s2'>
+                    <div className='col s8 offset-s2'>
                         <h3>Links</h3>
                         <div className="collection">
                             <a href="https://github.com/FilipeJrd/Visualizacao-Alunos/raw/master/Presentations/proposta.pdf" className="collection-item light-blue-text text-darken-2">Proposal Presentation</a>
