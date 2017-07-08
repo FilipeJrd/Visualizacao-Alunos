@@ -83,6 +83,6 @@ function test() {
   getGraphOfCollaboration().then(result => {
     console.log("links " + result[0]);
     console.log("nodes " + result[1]);
-    debugger
+    
   })
 }

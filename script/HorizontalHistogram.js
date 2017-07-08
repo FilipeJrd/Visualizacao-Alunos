@@ -39,7 +39,7 @@ class HorizontalHistogram {
   }
 
   createSvg(){
-    return (d3.select("body")
+    return (d3.select(".histograms")
       .append("svg")
       .attr("class", this.histName)
       .attr("width",this.width)
