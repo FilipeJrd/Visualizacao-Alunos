@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> adding site-app folder
 import NavBar from './NavBar'
 import Content from './Content'
 import Footer from './Footer'
@@ -10,7 +13,6 @@ import './App.css'
 class App extends Component {
 
     render(){
-
         return (
 
             <div className='app-flex'>
@@ -20,8 +22,7 @@ class App extends Component {
                 </main>
                 <Footer/>
             </div>
-            
-
+    
         )
     }
 }
