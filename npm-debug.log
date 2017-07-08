@@ -6,7 +6,7 @@
 4 verbose stack     at Error (native)
 5 verbose cwd /Users/icfd/Desktop/Visualizacao-Alunos
 6 error Darwin 16.6.0
-7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "deploy"
 8 error node v6.11.0
 9 error npm  v3.10.10
 10 error path /Users/icfd/Desktop/Visualizacao-Alunos/package.json
