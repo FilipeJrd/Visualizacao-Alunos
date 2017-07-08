@@ -1,0 +1,21 @@
+.app-flex {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column; 
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    flex: 0 0 auto;
+}
+
+.nav-wrapper{
+    flex: 0 0 auto;
+}
+
+.justify-text {
+    text-align: justify;
+}
