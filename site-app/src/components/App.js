@@ -1,9 +1,4 @@
 import React, { Component } from 'react'
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> adding site-app folder
 import NavBar from './NavBar'
 import Content from './Content'
 import Footer from './Footer'
@@ -20,13 +15,13 @@ class App extends Component {
             <div className='app-flex'>
                 <NavBar/>
                 <main>
-                    <Router>
+                    {/*<Router>
                         <div>
                          <Route exact path="/" component={Content}/>
                          <Route path="/visulizations" component={Visualization}/>
                          </div>
-                    </Router>
-                    {/*<Content/>*/}
+                    </Router>*/}
+                    <Content/>
                 </main>
                 <Footer/>
             </div>

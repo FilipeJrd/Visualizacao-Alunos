@@ -3,7 +3,12 @@ import React, {Component} from 'react'
 class Visualization extends Component {
     render() {
         return(
-            <div>OI</div>
+             <div className="container">
+                <div className="row histograms">
+                </div>
+                <div className="row fdg">
+                </div>
+            </div>
         )
     }
 }
