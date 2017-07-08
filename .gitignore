@@ -1,2 +1,4 @@
+
 script/repos/*
-.DS_Store
+\.DS_Store
+
