@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import screenShoot from '../data/screenshot.png'
 
 class Content extends Component {
     render(){
@@ -17,10 +18,30 @@ class Content extends Component {
                 </div> 
                 <div className='row'>
                     <div className='col s8 offset-s2'>
+                        <h3>How does it work?</h3>
+                        <div className='justify-text'>
+                            <blockquote >
+                            <p>This platform has basically three simple visualizations: framework’s histogram,  collaboration’s forced graph and heat-map matrix of frameworks per person. They receptively analise: how many times a frame work appears in all projects we collected and how many times a framework was used within a project; who were the students that worked together; and who many times a person used a specific framework.</p>
+                            <p>We have created these visualizations using <a href="https://d3js.org">d3.js</a> and <a href="http://materializecss.com/">materializecss</a>.</p>
+                            </blockquote>
+                        </div>
+                    </div>  
+                </div>
+
+                <div className='row'>
+                    <div className='col s8 offset-s2'>
+                        <h3>Demo(work-in-progress)</h3>
+                         <a href="#!"><img className="responsive-img" src={screenShoot}/></a>
+                    </div>  
+                </div>
+
+                
+                <div className='row'>
+                    <div className='col s8 offset-s2'>
                         <h3>Links</h3>
                         <div className="collection">
                             <a href="https://github.com/FilipeJrd/Visualizacao-Alunos/raw/master/Presentations/proposta.pdf" className="collection-item light-blue-text text-darken-2">Proposal Presentation</a>
-                            <a href="#!" className="collection-item light-blue-text text-darken-2">Demo (work-in-progress)</a>
+                            <a href="#!" className="collection-item light-blue-text text-darken-2">Data</a>
                         </div>
                     </div>  
                 </div> 

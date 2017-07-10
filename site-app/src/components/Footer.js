@@ -10,9 +10,9 @@ class Footer extends Component {
                     <div className="col l4 offset-l2 s12">
                         <h5 className="white-text">Github Owners Links</h5>
                         <ul>
-                        <li><a className="grey-text text-lighten-3" href="#!">Filipe Nogueira</a></li>    
-                        <li><a className="grey-text text-lighten-3" href="#!">Isabel Lima</a></li>
-                        <li><a className="grey-text text-lighten-3" href="#!">Isabelly Damascena</a></li>
+                        <li><a className="grey-text text-lighten-3" href="https://github.com/filipejrd/">Filipe Nogueira</a></li>    
+                        <li><a className="grey-text text-lighten-3" href="https://github.com/iillx">Isabel Lima</a></li>
+                        <li><a className="grey-text text-lighten-3" href="https://github.com/isabellyfd">Isabelly Damascena</a></li>
                         </ul>
                     </div>
                     </div>
