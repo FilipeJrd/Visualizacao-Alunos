@@ -10,17 +10,20 @@
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/4502936?v=3", 
                 "id": 4502936, 
-                "login": "augusto-jamaj"
+                "login": "augusto-jamaj",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
                 "id": 11545694, 
-                "login": "guedesbgeorge"
+                "login": "guedesbgeorge",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/19693213?v=3", 
                 "id": 19693213, 
-                "login": "IagoBarbosa"
+                "login": "IagoBarbosa",
+                "type": "design"
             }
         ]
     }, 
@@ -37,32 +40,38 @@
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/1373661?v=3", 
                 "id": 1373661, 
-                "login": "fernandocastor"
+                "login": "fernandocastor",
+               "type": "external"
             }, 
             {
                 "avatar": "https://avatars0.githubusercontent.com/u/3356696?v=3", 
                 "id": 3356696, 
-                "login": "Valbrand"
+                "login": "Valbrand",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/3356699?v=3", 
                 "id": 3356699, 
-                "login": "fc2"
+                "login": "fc2",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/9555750?v=3", 
                 "id": 9555750, 
-                "login": "Juniorlimaivd"
+                "login": "Juniorlimaivd",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
                 "id": 13512825, 
-                "login": "hpbl"
+                "login": "hpbl",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
                 "id": 22280044, 
-                "login": "eltonfs"
+                "login": "eltonfs",
+                "type": "alien"
             }
         ]
     }, 
@@ -80,27 +89,32 @@
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/2599977?v=3", 
                 "id": 2599977, 
-                "login": "mariamaOlive"
+                "login": "mariamaOlive",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/9863339?v=3", 
                 "id": 9863339, 
-                "login": "imvm"
+                "login": "imvm",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/18189593?v=3", 
                 "id": 18189593, 
-                "login": "iillx"
+                "login": "iillx",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/19510532?v=3", 
                 "id": 19510532, 
-                "login": "juliadebelli"
+                "login": "juliadebelli",
+                "type": "design"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/23509335?v=3", 
                 "id": 23509335, 
-                "login": "cesararaujo93"
+                "login": "cesararaujo93",
+                "type": "alien"
             }
         ]
     }, 
@@ -117,12 +131,14 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/3356699?v=3", 
                 "id": 3356699, 
-                "login": "fc2"
+                "login": "fc2",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
                 "id": 13512825, 
-                "login": "hpbl"
+                "login": "hpbl",
+                "type": "comp"
             }
         ]
     }, 
@@ -138,7 +154,8 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
                 "id": 14222832, 
-                "login": "VictorLealdeAlmeida"
+                "login": "VictorLealdeAlmeida",
+                "type": "comp"
             }
         ]
     }, 
@@ -152,7 +169,8 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
                 "id": 8097674, 
-                "login": "FilipeJrd"
+                "login": "FilipeJrd",
+                "type": "comp"
             }
         ]
     }, 
@@ -166,7 +184,8 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
                 "id": 8097674, 
-                "login": "FilipeJrd"
+                "login": "FilipeJrd",
+                "type": "comp"
             }
         ]
     }, 
@@ -186,22 +205,26 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
                 "id": 14222832, 
-                "login": "VictorLealdeAlmeida"
+                "login": "VictorLealdeAlmeida",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/19761356?v=3", 
                 "id": 19761356, 
-                "login": "btalyta"
+                "login": "btalyta",
+                "type": "alien"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/19777347?v=3", 
                 "id": 19777347, 
-                "login": "SilasGuilherme"
+                "login": "SilasGuilherme",
+                "type": "alien"
             }, 
             {
                 "avatar": "https://avatars0.githubusercontent.com/u/19818989?v=3", 
                 "id": 19818989, 
-                "login": "dichaves"
+                "login": "dichaves",
+                "type": "alien"
             }
         ]
     }, 
@@ -216,7 +239,8 @@
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
                 "id": 13512825, 
-                "login": "hpbl"
+                "login": "hpbl",
+                "type": "comp"
             }
         ]
     }, 
@@ -238,12 +262,14 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/6545705?v=3", 
                 "id": 6545705, 
-                "login": "tbbruno"
+                "login": "tbbruno",
+                "type": "external"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
                 "id": 14222832, 
-                "login": "VictorLealdeAlmeida"
+                "login": "VictorLealdeAlmeida",
+                "type": "comp"
             }
         ]
     }, 
@@ -268,22 +294,26 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
                 "id": 8097674, 
-                "login": "FilipeJrd"
+                "login": "FilipeJrd",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/15603731?v=3", 
                 "id": 15603731, 
-                "login": "dbm2"
+                "login": "dbm2",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/18189593?v=3", 
                 "id": 18189593, 
-                "login": "iillx"
+                "login": "iillx",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/23509335?v=3", 
                 "id": 23509335, 
-                "login": "cesararaujo93"
+                "login": "cesararaujo93",
+                "type": "alien"
             }
         ]
     }, 
@@ -300,37 +330,44 @@
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/1373661?v=3", 
                 "id": 1373661, 
-                "login": "fernandocastor"
+                "login": "fernandocastor",
+                "type": "external"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/9863339?v=3", 
                 "id": 9863339, 
-                "login": "imvm"
+                "login": "imvm",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
                 "id": 11545694, 
-                "login": "guedesbgeorge"
+                "login": "guedesbgeorge",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
                 "id": 14222832, 
-                "login": "VictorLealdeAlmeida"
+                "login": "VictorLealdeAlmeida",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars0.githubusercontent.com/u/18312922?v=3", 
                 "id": 18312922, 
-                "login": "habacuquerocha"
+                "login": "habacuquerocha",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/19510532?v=3", 
                 "id": 19510532, 
-                "login": "juliadebelli"
+                "login": "juliadebelli",
+                "type": "design"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
                 "id": 22280044, 
-                "login": "eltonfs"
+                "login": "eltonfs",
+                "type": "alien"
             }
         ]
     }, 
@@ -346,17 +383,20 @@
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/122041?v=3", 
                 "id": 122041, 
-                "login": "Cisneiros"
+                "login": "Cisneiros",
+                "type": "external"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/8253723?v=3", 
                 "id": 8253723, 
-                "login": "JonnatasCabral"
+                "login": "JonnatasCabral",
+                "type": "external"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
                 "id": 14222832, 
-                "login": "VictorLealdeAlmeida"
+                "login": "VictorLealdeAlmeida",
+                "type": "comp"
             }
         ]
     }, 
@@ -373,7 +413,8 @@
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
                 "id": 22280044, 
-                "login": "eltonfs"
+                "login": "eltonfs",
+                "type": "alien"
             }
         ]
     }, 
@@ -388,7 +429,8 @@
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
                 "id": 22280044, 
-                "login": "eltonfs"
+                "login": "eltonfs",
+                "type": "alien"
             }
         ]
     }, 
@@ -405,17 +447,20 @@
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/122041?v=3", 
                 "id": 122041, 
-                "login": "Cisneiros"
+                "login": "Cisneiros",
+                "type": "external"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/6545705?v=3", 
                 "id": 6545705, 
-                "login": "tbbruno"
+                "login": "tbbruno",
+                "type": "external"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
                 "id": 14222832, 
-                "login": "VictorLealdeAlmeida"
+                "login": "VictorLealdeAlmeida",
+                "type": "comp"
             }
         ]
     }, 
@@ -437,7 +482,8 @@
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
                 "id": 11545694, 
-                "login": "guedesbgeorge"
+                "login": "guedesbgeorge",
+                "type": "comp"
             }
         ]
     }, 
@@ -452,17 +498,20 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/1664145?v=3", 
                 "id": 1664145, 
-                "login": "forbidden404"
+                "login": "forbidden404", 
+                "type": "external"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
                 "id": 8097674, 
-                "login": "FilipeJrd"
+                "login": "FilipeJrd",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars0.githubusercontent.com/u/19688761?v=3", 
                 "id": 19688761, 
-                "login": "JoaoHolanda"
+                "login": "JoaoHolanda",
+                "type": "alien"
             }
         ]
     }, 
@@ -486,17 +535,20 @@
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
                 "id": 11545694, 
-                "login": "guedesbgeorge"
+                "login": "guedesbgeorge",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/18189593?v=3", 
                 "id": 18189593, 
-                "login": "iillx"
+                "login": "iillx",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/19693213?v=3", 
                 "id": 19693213, 
-                "login": "IagoBarbosa"
+                "login": "IagoBarbosa",
+                "type": "design"
             }
         ]
     }, 
@@ -516,32 +568,38 @@
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/6579696?v=3", 
                 "id": 6579696, 
-                "login": "baac"
+                "login": "baac",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
                 "id": 8097674, 
-                "login": "FilipeJrd"
+                "login": "FilipeJrd",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/9863339?v=3", 
                 "id": 9863339, 
-                "login": "imvm"
+                "login": "imvm",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
                 "id": 11545694, 
-                "login": "guedesbgeorge"
+                "login": "guedesbgeorge",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/14222832?v=3", 
                 "id": 14222832, 
-                "login": "VictorLealdeAlmeida"
+                "login": "VictorLealdeAlmeida",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/18189593?v=3", 
                 "id": 18189593, 
-                "login": "iillx"
+                "login": "iillx",
+                "type": "comp"
             }
         ]
     }, 
@@ -557,7 +615,8 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/8097674?v=3", 
                 "id": 8097674, 
-                "login": "FilipeJrd"
+                "login": "FilipeJrd",
+                "type": "comp"
             }
         ]
     }, 
@@ -573,12 +632,14 @@
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/4502936?v=3", 
                 "id": 4502936, 
-                "login": "augusto-jamaj"
+                "login": "augusto-jamaj",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/11545694?v=3", 
                 "id": 11545694, 
-                "login": "guedesbgeorge"
+                "login": "guedesbgeorge",
+                "type": "comp"
             }
         ]
     }, 
@@ -592,7 +653,8 @@
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
                 "id": 13512825, 
-                "login": "hpbl"
+                "login": "hpbl",
+                "type": "comp"
             }
         ]
     }, 
@@ -604,22 +666,26 @@
             {
                 "avatar": "https://avatars0.githubusercontent.com/u/3356696?v=3", 
                 "id": 3356696, 
-                "login": "Valbrand"
+                "login": "Valbrand",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/6303449?v=3", 
                 "id": 6303449, 
-                "login": "isabellyfd"
+                "login": "isabellyfd",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/9555750?v=3", 
                 "id": 9555750, 
-                "login": "Juniorlimaivd"
+                "login": "Juniorlimaivd",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars0.githubusercontent.com/u/19818989?v=3", 
                 "id": 19818989, 
-                "login": "dichaves"
+                "login": "dichaves",
+                "type": "alien"
             }
         ]
     }, 
@@ -634,17 +700,21 @@
             {
                 "avatar": "https://avatars1.githubusercontent.com/u/3356699?v=3", 
                 "id": 3356699, 
-                "login": "fc2"
+                "login": "fc2",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
                 "id": 13512825, 
-                "login": "hpbl"
+                "login": "hpbl",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/14084418?v=3", 
                 "id": 14084418, 
-                "login": "bhlvm"
+                "login": "bhlvm",
+                "type": "external"
+
             }
         ]
     }, 
@@ -663,27 +733,32 @@
             {
                 "avatar": "https://avatars0.githubusercontent.com/u/3356696?v=3", 
                 "id": 3356696, 
-                "login": "Valbrand"
+                "login": "Valbrand",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/13274833?v=3", 
                 "id": 13274833, 
-                "login": "jeronimobs"
+                "login": "jeronimobs",
+                "type": "alien"
             }, 
             {
                 "avatar": "https://avatars3.githubusercontent.com/u/13512825?v=3", 
                 "id": 13512825, 
-                "login": "hpbl"
+                "login": "hpbl",
+                "type": "comp"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/19693213?v=3", 
                 "id": 19693213, 
-                "login": "IagoBarbosa"
+                "login": "IagoBarbosa",
+                "type": "design"
             }, 
             {
                 "avatar": "https://avatars2.githubusercontent.com/u/22280044?v=3", 
                 "id": 22280044, 
-                "login": "eltonfs"
+                "login": "eltonfs",
+                "type": "alien"
             }
         ]
     }
