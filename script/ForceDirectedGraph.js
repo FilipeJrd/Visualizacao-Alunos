@@ -50,13 +50,13 @@ function drawFDG() {
             .attr("r", 5)
             .attr("fill", function (d) {
                 if (d.type === "design") {
-                    return "blue"
+                    return "#d7191c"
                 } else if (d.type === "comp") {
-                    return "red"
+                    return "#fdae61"
                 } else if (d.type === "external") {
-                    return "yellow"
+                    return "#abd9e9"
                 } else if (d.type === "alien"){
-                    return "green"
+                    return "#2c7bb6"
                 }
             });
 
