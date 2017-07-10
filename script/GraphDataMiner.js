@@ -4,8 +4,10 @@ nodes = []
 function getGraphOfCollaboration() {
   links = []
   nodes = []
+
   return new Promise((fulfill, reject) => {
     d3.json("result2.json", (err, json) => {
+      
       if (err) {
         reject(err)
       }
@@ -15,9 +17,10 @@ function getGraphOfCollaboration() {
 
         var usersDict = (json[projectListName[i]])["users"]
         const users = usersDict.map(function(user){
-          return user.login
-        }).sort()
-        Object.keys(usersDict).sort()
+          return [user.login, user.type]
+        }).sort( function(a, b){
+          return a[0] > b[0]
+        })
         addUsersToNodes(users)
 
         for (var j = 0; j < users.length; j++) {
@@ -29,14 +32,18 @@ function getGraphOfCollaboration() {
       var filtragi = {}
       for (var i = 0 ; i < nodes.length; i++){
         let elem = (nodes[i]).id
-        filtragi[elem] = ""
+        filtragi[elem] = (nodes[i]).type
       }
       const gambiDoInferno = Object.keys(filtragi)
+      const gambiDoInferno2 = Object.values(filtragi
+      )
       nodes = []
       for (var i = 0; i < gambiDoInferno.length ; i++){
         const object = {
-          id: gambiDoInferno[i]
+          id: gambiDoInferno[i],
+          type: gambiDoInferno2[i]
         }
+        
         nodes.push(object)
       }
       result = [links, nodes]
@@ -58,8 +65,8 @@ function ifexitsUpdate(srcUser, targetUser) {
 
   if (!hasConnectionAlready) {
     const object = {
-      source: srcUser,
-      target: targetUser,
+      source: srcUser[0],
+      target: targetUser[0],
       value: 1
     }
     links.push(object)
@@ -67,10 +74,13 @@ function ifexitsUpdate(srcUser, targetUser) {
 }
 
 function addUsersToNodes(users) {
+  
   for (var i = 0; i < users.length; i++) {
     const object = {
-      id: users[i],
+      id: (users[i])[0],
+      type: (users[i])[1],
     }
+
     const contains = nodes.includes(object)
     if (!contains){
       nodes.push(object)

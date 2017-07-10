@@ -65,7 +65,7 @@ function drawHeatMap() {
 
       const heatmapChart = function () {
         getMatrixOfLibariesForUsers().then(data => {
-          console.log(d3.max(data, (d) => d[2]))
+        
           const colorScale = d3.scaleQuantile()
             .domain([0, buckets - 1, d3.max(data, (d) => d[2])])
             .range(colors);
@@ -124,7 +124,7 @@ function drawHeatMap() {
           legend_g.append("text")
             .attr("class", "mono")
             .text((d,i) =>{
-              console.log((d,i))
+              
               return "   " + i
             } )
             .attr("x", (d, i) => legendElementWidth * i)
