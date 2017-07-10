@@ -14,6 +14,8 @@
     
             var color =d3.scaleOrdinal(d3.schemeCategory20);
             fdg.selectAll("g").remove()
+
+            fdg.append("text").text("Collaboration Graph").attr("x",0).attr("y", 50).attr("font-size",25);
             var graph = {
                 nodes: [],
                 links: []

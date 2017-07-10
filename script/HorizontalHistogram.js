@@ -42,13 +42,15 @@ class HorizontalHistogram {
     return (d3.select(".histograms")
       .append("svg")
       .attr("class", this.histName)
-      .attr("width",this.width)
-      .attr("height",this.height));
+      .attr("width",this.width+this.margins.left+this.margins.right)
+      .attr("height",this.height+this.margins.top+this.margins.bottom)
+      .append("g")
+      .attr("transform", "translate(" +this.margins.left + "," + this.margins.top + ")"))
   }
   
   draw(data){
     var that = this
-
+    this.svg.append("text").text(that.histName).attr("x",this.width/2).attr("y", 0).attr("font-size",25);
     this.svg.append('g')
             .attr('transform',"translate(100,"+(-4)+")")
 			.attr('id','bars')

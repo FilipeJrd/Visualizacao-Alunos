@@ -9,9 +9,9 @@ function drawHeatMap() {
         .attr("class", "tooltip")
         .style("opacity", 0)
 
-      const margin = { top: 100, right: 0, bottom: 100, left: 150 },
+      const margin = { top: 200, right: 0, bottom: 100, left: 150 },
         width = 450 - margin.left - margin.right,
-        height = 800 - margin.top - margin.bottom,
+        height = 900 - margin.top - margin.bottom,
         gridSize = 10,
         legendElementWidth = gridSize * 2,
         buckets = 7,
@@ -32,12 +32,14 @@ function drawHeatMap() {
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+      svg.append("text").text("Library/Student Matrix").attr("x",0).attr("y", -150).attr("font-size",25);
       const dayLabels = svg.selectAll(".dayLabel")
         .data(days)
         .enter().append("text")
         .text(function (d) { return d; })
         .attr("x", 0)
         .attr("y", (d, i) => i * gridSize)
+        .attr("font-size",10)
         .style("text-anchor", "end")
         .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
         .attr("class", (d, i) => ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis"));
@@ -48,6 +50,7 @@ function drawHeatMap() {
         .text((d) => d)
         .attr("x", 10)
         .attr("y", (d, i) => (i * gridSize))
+        .attr("font-size",10)
         .style("text-anchor", "start")
         .attr("transform", " rotate(-90) translate(" + -(gridSize / 2) + ", 6)")
         .attr("class", (d, i) => ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"));
@@ -109,7 +112,7 @@ function drawHeatMap() {
 
           const legend_g = legend.enter().append("g")
             .attr("class", "legend")
-            .attr("transform", "translate(60,10)")
+            .attr("transform", "translate(60,0)")
 
           legend_g.append("rect")
             .attr("x", (d, i) => legendElementWidth * i)
