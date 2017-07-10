@@ -6,7 +6,7 @@ function drawHeatMap() {
       if (errUsers) { reject(errUsers) }
 
       const margin = { top: 100, right: 0, bottom: 100, left: 150 },
-        width = 500 - margin.left - margin.right,
+        width = 450 - margin.left - margin.right,
         height = 800 - margin.top - margin.bottom,
         gridSize = 10 ,
         legendElementWidth = gridSize * 2,
@@ -18,11 +18,11 @@ function drawHeatMap() {
 "#8c96c6",
 "#8c6bb1",
 "#88419d",
-"#6e016b"] // alternatively colorbrewer.YlGnBu[9]
+"#6e016b"] 
         days = libsArray,
         times =  Object.keys(usersJson)
        
-      const svg = d3.select(".chart").append("svg")
+      const svg = d3.select(".fdg").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
@@ -104,7 +104,7 @@ function drawHeatMap() {
             .attr("class", "mono")
             .text((d,i) =>{
               console.log((d,i))
-              return "≥ " + i
+              return "   " + i
             } )
             .attr("x", (d, i) => legendElementWidth * i)
             .attr("y", height + gridSize);

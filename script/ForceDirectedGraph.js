@@ -1,14 +1,14 @@
 
        function drawFDG() {
-            var w = 500;
+            var w = 250;
             var h = 500;
 
             var fdg = d3.select(".fdg")
             
             .append("svg")
-            
             .attr("width", w)
-            .attr("height", h);
+            .attr("height", h)
+            .attr("style","vertical-align: top;");
              var simulation;
         
     
