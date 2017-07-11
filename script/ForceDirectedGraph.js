@@ -1,7 +1,7 @@
 
 function drawFDG() {
     var w = 250;
-    var h = 500;
+    var h = 800;
 
     var fdg = d3.select(".fdg")
 
@@ -74,6 +74,58 @@ function drawFDG() {
 
         simulation.force("link")
             .links(graph.links)
+
+        var legend = fdg.append("g")
+
+        legend.append("rect")
+                .attr("width", 30)
+                .attr("height", 30)
+                .attr("style", "fill:#d7191c")
+                .attr("y",h-250);
+
+        legend.append("text")
+                .text("design")
+                .attr("x",50)
+                .attr("y",h-225)
+                .attr("font-size",25);
+
+        legend.append("rect")
+                .attr("width", 30)
+                .attr("height", 30)
+                .attr("style", "fill:#fdae61")
+                .attr("y",h-200);
+
+        legend.append("text")
+                .text("comp")
+                .attr("x",50)
+                .attr("y",h-175)
+                .attr("font-size",25)
+
+        legend.append("rect")
+                .attr("width", 30)
+                .attr("height", 30)
+                .attr("style", "fill:#abd9e9")
+                .attr("y",h-150)
+
+        legend.append("text")
+                .text("external")
+                .attr("x",50)
+                .attr("y",h-125)
+                .attr("font-size",25)
+
+        
+        legend.append("rect")
+                .attr("width", 30)
+                .attr("height", 30)
+                .attr("style", "fill:#2c7bb6")
+                .attr("y",h - 100)
+        
+        legend.append("text")
+                .text("alien")
+                .attr("x",50)
+                .attr("y",h-75)
+                .attr("font-size",25)
+            
 
         function ticked() {
             link

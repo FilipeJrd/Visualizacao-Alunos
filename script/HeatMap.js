@@ -41,6 +41,7 @@ function drawHeatMap() {
         .attr("y", (d, i) => i * gridSize)
         .attr("font-size",10)
         .style("text-anchor", "end")
+        .attr("id",(d,i)=>("day"+(i+1)))
         .attr("transform", "translate(-6," + gridSize / 1.5 + ")")
         .attr("class", (d, i) => ((i >= 0 && i <= 4) ? "dayLabel mono axis axis-workweek" : "dayLabel mono axis"));
 
@@ -52,6 +53,7 @@ function drawHeatMap() {
         .attr("y", (d, i) => (i * gridSize))
         .attr("font-size",10)
         .style("text-anchor", "start")
+        .attr("id", (d,i)=> ("time"+(i+1)))
         .attr("transform", " rotate(-90) translate(" + -(gridSize / 2) + ", 6)")
         .attr("class", (d, i) => ((i >= 7 && i <= 16) ? "timeLabel mono axis axis-worktime" : "timeLabel mono axis"));
 
@@ -95,12 +97,18 @@ function drawHeatMap() {
 
               tooltipDiv.html(d[2])
                 .style("left", (d3.event.pageX) + "px")
-                .style("top", (d3.event.pageY) + "px")
+                .style("top", (d3.event.pageY) + "px");
+              
+              d3.select("#time"+d[1]).attr("fill","red")
+              d3.select("#day"+d[0]).attr("fill","red")
             })
             .on("mouseout", function (d) {
               tooltipDiv.transition()
                 .duration(500)
-                .style("opacity", 0)
+                .style("opacity", 0);
+              
+              d3.select("#time"+d[1]).attr("fill","black")
+              d3.select("#day"+d[0]).attr("fill","black")
             })
 
           cards.select("title").text((d) => d[2]);
